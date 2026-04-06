@@ -56,3 +56,22 @@ To release a new version **just update the `package.json` version and push**.
 
 To enable the workflow go to your fork of this repository on GitHub then navigate to:
 `Settings` > `Actions` > `Workflow permissions`, select `Read and write permissions`.
+
+# TuKNA note
+git clone https://github.com/keycloakify/keycloakify-starter
+
+cd keycloakify-starter
+
+npm install
+
+npx keycloakify add-story
+
+npm run storybook
+
+npx keycloakify eject-page
+
+npx keycloakify start-keycloak
+
+npm run build-keycloak-theme
+
+npx keycloakify ininttialize-admin-theme
